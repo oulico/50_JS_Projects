@@ -7,10 +7,10 @@ textarea.addEventListener("keyup", (e) => {
   createTags(e.target.value);
 
   if (e.key === "Enter") {
-    // setTimeout(() => {
-    // }, 100);
+    setTimeout(() => {
+      e.target.value = "";
+    }, 100);
     randomSelect();
-    // e.target.value = "";
   }
 });
 
@@ -28,21 +28,26 @@ function createTags(input) {
     tagEl.innerText = tag;
     tagsEl.appendChild(tagEl);
   });
-  console.log(tags);
 }
 
 function randomSelect() {
   const times = 30;
+
   const interval = setInterval(() => {
     const randomTag = pickRandomTag();
-    highlightTag(randomTag);
-    setTimeout(() => {
-      unHighlightTag(randomTag);
-    }, 100);
+
+    if (randomTag !== undefined) {
+      highlightTag(randomTag);
+
+      setTimeout(() => {
+        unHighlightTag(randomTag);
+      }, 100);
+    }
   }, 100);
 
   setTimeout(() => {
     clearInterval(interval);
+
     setTimeout(() => {
       const randomTag = pickRandomTag();
 
