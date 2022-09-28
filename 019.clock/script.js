@@ -63,14 +63,14 @@ function setTime() {
     0,
     59,
     0,
-    360
+    354
   )}deg)`;
   secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(
     seconds,
     0,
     59,
     0,
-    360
+    354
   )}deg)`;
 
   timeEl.innerHTML = `${hoursForClock}:${
