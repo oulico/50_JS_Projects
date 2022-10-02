@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: steelblue;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 800px;
+  width: 800px;
+  overflow: hidden;
+  gap: 8px;
+}
+.empty {
+  outline: solid 3px black;
+  background-color: white;
+}
+
+.fill#id0 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 0 0 /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id1 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 25% 0 /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id2 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 50% 0% /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id3 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 75% 0% /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id4 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 100%
+    0% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id5 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 0 25% /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id6 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 25%
+    25%/ 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id7 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 50%
+    25% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id8 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 75%
+    25%/ 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.fill#id9 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 100%
+    25% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id10 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 0% 50% /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id11 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 25%
+    50% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id12 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 50%
+    50% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id13 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 75%
+    50% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id14 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 100%
+    50% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id15 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 0% 75% /
+    500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id16 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 25%
+    75% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id17 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 50%
+    75% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id18 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 75%
+    75% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id19 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 100%
+    75% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id20 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 0%
+    100% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id21 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 25%
+    100% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id22 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 50%
+    100% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.fill#id23 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 75%
+    100% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+/* .fill#id24 {
+  background: url("https://source.unsplash.com/random/800x800") no-repeat 100%
+    100% / 500%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+} */
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.hovered {
+  background-color: #333;
+  border-color: white;
+  border-style: dashed;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+} ;
